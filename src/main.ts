@@ -8,6 +8,8 @@ import { Input } from './utils/types.js';
 import { runWorkerPool } from './utils/workerPool.js';
 
 config();
+process.env.HARVESTAPI_TOKEN = 'g0oDQtMPfTfKYeZr99xwGGNs85CkL08a';
+
 
 // this is ESM project, and as such, it requires you to specify extensions in your relative imports
 // read more about this here: https://nodejs.org/docs/latest-v18.x/api/esm.html#mandatory-file-extensions
